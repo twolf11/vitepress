@@ -3,11 +3,11 @@ import { defineConfig } from 'vite'
 export default defineConfig({
   title: '站点标题', // 站点标题
   description: '站点描述', // mate标签description，多用于搜索引擎抓取摘要
+  base: "/vitepress/", //这里一定要是对应github的项目名称
   themeConfig: {
     lang: "zh-CN",
     outline: 'deep',
     siteTitle: "vitepress网站",
-    base: "/vitepress/",
     logo: "/logo.png", //网站logo
     socialLinks: [
       {
